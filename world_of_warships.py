@@ -119,7 +119,7 @@ class Board:
                     self.last_hit.append(d)
                     return True
 
-        self.field[d.x][d.y] = '.'
+        self.field[d.x][d.y] = 'T'
         print('Промах!')
         return False
 
